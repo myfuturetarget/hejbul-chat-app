@@ -17,3 +17,38 @@
   background: #e79d9d;
   border-radius: 100vw;
 }
+
+.circle {
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+  filter: blur(120px);
+}
+/* .circle2 {
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+  filter: blur(180px);
+} */
+
+.sent_for_msg1 {
+  @apply rounded rounded-tl-none self-start bg-white;
+}
+.sent_for_msg2 {
+  @apply rounded rounded-tr-none self-end bg-pink-300 text-white;
+}
+
+.sent_for_msg3 {
+  @apply ml-2;
+}
+.sent_for_msg4 {
+  @apply mr-2;
+}
+
+.sent_img {
+  @apply self-start;
+}
+
+.recive_img {
+  @apply self-end;
+}
