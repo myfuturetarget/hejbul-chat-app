@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import '../../../..//assets/css/project3.css';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../Hooks/AuthContext';
 const Register = () => {

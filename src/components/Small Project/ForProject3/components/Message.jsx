@@ -4,7 +4,6 @@ import { ChatContext } from '../Hooks/ChatContext';
 
 // eslint-disable-next-line react/prop-types
 const Message = ({ message }) => {
-  console.log(message);
   const { currentUser } = useAuth();
   const { data } = useContext(ChatContext);
 

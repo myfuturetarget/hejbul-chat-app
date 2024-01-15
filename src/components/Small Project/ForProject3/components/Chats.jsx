@@ -29,7 +29,6 @@ const Chats = ({ forwordHandle }) => {
     currentUser.uid && getChats();
   }, [currentUser.uid]);
 
-  console.log(Object.entries(chats));
   return (
     <div className=" overflow-y-auto">
       {Object.entries(chats)

@@ -16,7 +16,6 @@ const Messages = () => {
       unsub();
     };
   }, [data.chatId]);
-  console.log(messages);
   return (
     <div className=" h-lvh bg-red-50 overflow-y-auto">
       <div className=" text-center w-[70%] mx-auto mt-5 mb-10">
