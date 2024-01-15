@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Webkite Scrollbar customization */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e79d9d;
+  border-radius: 100vw;
+}

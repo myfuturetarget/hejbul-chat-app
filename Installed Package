@@ -1,0 +1,13 @@
+# npm i react-router
+# npm i react-router-dom
+# npm install -D tailwindcss postcss autoprefixer
+# npx tailwindcss init -p
+# npm install firebase
+# npm install --save react-firebase-hooks
+# npm i uuid
+
+# [Deprecated]
+# npm i -D tailwindcss
+# npx tailwindcss init
+# npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+# [Deprecated]
