@@ -15,7 +15,7 @@
   @apply rounded rounded-tl-none self-start bg-white;
 }
 .sent_for_msg2 {
-  @apply rounded rounded-tr-none self-end bg-pink-300 text-zinc-100;
+  @apply rounded rounded-tr-none self-end bg-pink-300 text-white;
 }
 
 .sent_for_msg3 {
