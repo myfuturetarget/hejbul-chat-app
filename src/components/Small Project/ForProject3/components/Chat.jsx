@@ -13,7 +13,7 @@ const Chat = ({ backHandle, back }) => {
         back ? ' max-sm:hidden' : 'max-sm:block'
       }`}
     >
-      <div className=" flex justify-between items-center bg-red-300 p-[26.5px]">
+      <div className=" flex justify-between items-center bg-red-300 p-[26.5px] max-sm:p-[20px]">
         <div className=" flex gap-3 items-center">
           <i
             onClick={backHandle}

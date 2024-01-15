@@ -65,12 +65,12 @@ const Input = () => {
   };
 
   return (
-    <div className=" w-full bg-white flex justify-between items-center p-[19px]">
+    <div className=" w-full bg-white flex justify-between items-center p-[19px] max-sm:p-[15px]">
       <input
         onChange={e => setText(e.target.value)}
         value={text}
         type="text"
-        className=" w-[85%] p-2 outline-none"
+        className=" w-[85%] p-2 pl-4 mr-2 outline-none bg-slate-100 rounded-full"
         placeholder="Message..."
       />
       <div className=" flex items-center justify-between gap-10">
